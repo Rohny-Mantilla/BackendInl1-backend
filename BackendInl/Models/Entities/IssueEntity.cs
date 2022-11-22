@@ -23,7 +23,7 @@ namespace BackendInl.Models.Entities
 
 		public StatusEntity Status { get; set; }
 		public CustomerEntity Customer { get; set; }
-		public ICollection<CommentEntity> Comments { get; set; }
+        public ICollection<CommentEntity> Comments { get; set; }
 
 
 
